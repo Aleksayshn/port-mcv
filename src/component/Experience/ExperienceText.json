@@ -1,0 +1,41 @@
+{
+    "items": [
+        [
+            {
+                "title": "Treecom Initiatives",
+                "position": "Software Developer",
+                "dateTime": "September 2023 - until now",
+                "workTime": "Hourly contract via Upwork"
+            },
+            {
+                "title": "description",
+                "description": "Creating responsive email templates for a SaaS-based email template generator"
+            }
+        ],
+        [
+            {
+                "title": "IT-Sprout",
+                "position": "Intern Full-stack Developer",
+                "dateTime": "June 2023 - until now",
+                "workTime": "Internship"
+            },
+            {
+                "title": "description",
+                "description": "Authentication features: Google Auth, sign-up, login, and password management \r Utilizing RTK Query for state management. \r Configured SendGrid for verification emails, password reset and account updates. \r Developed admin dashboard with Material-UI, platform management and oversight."
+            }
+        ],
+        [
+            {
+                "title": "Public union Kharkiv cluster of IT",
+                "position": "Frontend Developer",
+                "dateTime": "March 2023 - May 2023",
+                "workTime": "Internship"
+            },
+            {
+                "title": "description",
+                "description": "Developed an interactive statistics table to display user engagement metrics, including attendance, reactions, and evaluations"
+            }
+        ]
+        
+    ]
+}
