@@ -31,7 +31,7 @@ import pic5 from "../../img/5.jpg";
 import pic6 from "../../img/6.jpg";
 import pic7 from "../../img/7.jpg";
 import pic8 from "../../img/8.jpg";
-import pic8 from "../../img/9.jpg";
+import pic9 from "../../img/9.jpg";
 
 const iconHtml = (
   <IconHtml>
