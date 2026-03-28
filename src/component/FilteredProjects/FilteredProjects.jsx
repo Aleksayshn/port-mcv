@@ -137,12 +137,12 @@ const FilteredProjects = () => {
                     </Item>}
 
                     {(filters.length === 0 || filters.includes('React')) && <Item>
-                        <Title>Project 8 <SecondTitle>&#47;&#47; DeliveryApp</SecondTitle></Title>
+                        <Title>Project 8 <SecondTitle>&#47;&#47; Peer-to-Peer Item Sharing Platform</SecondTitle></Title>
                         <Body>
                             <Img src={pic8} alt="preview project 8" width="370" />
                             <TextBody>
-                                <Text>Independent work on React. Functionalities: filter/sort/search, cart/wishlist/order/address management, checkout, authentication, responsive</Text>
-                                <Link target="_blank" href="https://github.com/Aleksayshn/DeliveryApp">view-project</Link>
+                                <Text>Independent work on Next. Functionalities: filter/sort/search, cart/wishlist/order/address management, checkout, authentication, responsive</Text>
+                                <Link target="_blank" href="https://shareit-react-ts.vercel.app/">view-project</Link>
                             </TextBody>
                             {iconReact}
                         </Body>
