@@ -29,9 +29,9 @@ import pic3 from "../../img/3.jpg";
 import pic4 from "../../img/4.jpg";
 import pic5 from "../../img/5.jpg";
 import pic6 from "../../img/6.jpg";
-import pic7 from "../../img/7.jpg";
 import pic8 from "../../img/8.jpg";
 import pic9 from "../../img/9.jpg";
+import pic10 from "../../img/10.jpg";
 
 const iconHtml = (
   <IconHtml>
@@ -231,7 +231,7 @@ const FilteredProjects = () => {
                 Project 7 <SecondTitle>&#47;&#47; Storage API</SecondTitle>
               </Title>
               <Body>
-                <Img src={pic6} alt="preview project 6" width="370" />
+                <Img src={pic6} alt="preview project 7" width="370" />
                 <TextBody>
                   <Text>
                     Independent work, echnologies: Express.js, Mongoose as an
@@ -243,6 +243,33 @@ const FilteredProjects = () => {
                     target="_blank"
                     href="https://github.com/Aleksayshn/REST-API"
                   >
+                    view-project
+                  </Link>
+                </TextBody>
+                {iconNode}
+              </Body>
+            </Item>
+          )}
+
+          {(filters.length === 0 ||
+            filters.includes("Node") ||
+            filters.includes("React")) && (
+            <Item>
+              <Title>
+                Project 8 <SecondTitle>&#47;&#47; Coursegarden</SecondTitle>
+              </Title>
+              <Body>
+                <Img src={pic8} alt="preview project 8" width="370" />
+                <TextBody>
+                  <Text>
+                    Team collaboration on React, Nest. My role: Google Auth,
+                    sign-up, login, and password management Utilizing RTK Query
+                    for state management Configured SendGrid for verification
+                    emails, password reset and account updates. Developed admin
+                    dashboard with Material-UI, platform management and
+                    oversight.
+                  </Text>
+                  <Link target="_blank" href="https://getcourse.cloud/">
                     view-project
                   </Link>
                 </TextBody>
@@ -278,43 +305,14 @@ const FilteredProjects = () => {
             </Item>
           )}
 
-          {(filters.length === 0 ||
-            filters.includes("Node") ||
-            filters.includes("React")) && (
-            <Item>
-              <Title>
-                Project 8 <SecondTitle>&#47;&#47; Coursegarden</SecondTitle>
-              </Title>
-              <Body>
-                <Img src={pic7} alt="preview project 7" width="370" />
-                <TextBody>
-                  <Text>
-                    Team collaboration on React, Nest. My role: Google Auth,
-                    sign-up, login, and password management Utilizing RTK Query
-                    for state management Configured SendGrid for verification
-                    emails, password reset and account updates. Developed admin
-                    dashboard with Material-UI, platform management and
-                    oversight.
-                  </Text>
-                  <Link target="_blank" href="https://getcourse.cloud/">
-                    view-project
-                  </Link>
-                </TextBody>
-                {iconNode}
-              </Body>
-            </Item>
-          )}
-
           {(filters.length === 0 || filters.includes("React")) && (
             <Item>
               <Title>
-                Project 8{" "}
-                <SecondTitle>
-                  &#47;&#47; Peer-to-Peer Item Sharing Platform
-                </SecondTitle>
+                Project 10
+                <SecondTitle>&#47;&#47; Peer-to-Peer Platform</SecondTitle>
               </Title>
               <Body>
-                <Img src={pic8} alt="preview project 8" width="370" />
+                <Img src={pic10} alt="preview project 10" width="370" />
                 <TextBody>
                   <Text>
                     Independent work on Next. Functionalities:
