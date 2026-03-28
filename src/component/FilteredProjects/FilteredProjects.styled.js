@@ -137,3 +137,7 @@ background-color: #f0db4f;
 export const IconNode = styled(Icon)`
 background-color: #4bbd86;
 `;
+
+export const IconJava = styled(SecondIcon)`
+background-color: #f89820;
+`;
